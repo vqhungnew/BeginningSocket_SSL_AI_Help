@@ -52,8 +52,7 @@ Connection: Close
 
             // Print the contents of the 'responseChars' buffer to Console.Out
             Console.Out.Write(responseChars, 0, charCount);
-            //Waiting any action to exit
-            Console.ReadKey();
+            
         }
     }
 }
